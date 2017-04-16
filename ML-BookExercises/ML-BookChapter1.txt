@@ -1,0 +1,84 @@
+Chapter 1
+================
+Question 1
+An algorithm that's performance P and task T improves with experience E
+
+Question 2
+Problems with constantly adjusting parameters
+Problems that would require complex rules to implement traditionally
+Problems that are too complex for traditional approaches or have no known algorithms
+Problems where the problem is not fully understood and output of a machine learning program could provide useful insights.
+
+Question 3
+A labelled training set is a set of data used for supervised learning problems that contains
+feature data and the expected output (i.e the label) associated
+
+Question 4
+The most common type of supervised learning tasks are classification and regression
+
+Question 5
+4 types of unsupervised learning tasks are :
+Clustering
+Dimensionality reduction (feature reduction)
+Visualisation
+Association rule learning (finding links between data)
+
+Question 6
+Reinforcement learning would be used for this application because
+the robot would be expected to figure out which policies would need to be
+used in a variety of situations, which may or may not have collectable data
+
+Question 7
+Semi supervised learning
+
+Question 8
+Spam detection would likely fall in the supervised learning camp as training data with labels would be used
+to generate the original model.
+
+Question 9
+An online learning system is a system is trained incrementally by feeding sequential data
+into the system. This allows the system to learn about new data on the fly.
+
+Question 10
+Out of core learning is how a learning system would be applied to data that is too big
+to fit in the memory of one machine. It would be used as part of a online learning system.
+
+Question 11
+Instance based learning algorithms
+
+Question 12
+A model parameter is a parameter used to help fit the input data to the output
+a hyperparameter is used to limit the effect or effective size of the model parameters and is a part of the learning algorithm itself
+
+Question 13
+Model based learning algorithms look to fit mathematical models to the set of data for prediction
+We would train these functions by minimizing the cost functions of a selected model.
+The place input features (the equation variable) into the model to calculate an output prediction
+
+Question 14
+Insufficient training data
+Non representative training data
+Poor Quality data
+Underfitting
+Overfitting
+
+Question 15
+Correct fitting in training data but poor fitting in test data indicates poor generalisation
+- Simplify the data
+- Try to gather additonal training data
+- remove noisy data points
+
+Question 16
+A test set is a subset of labelled data removed from training data used to validate
+how well a trained algorithm generalised to the problem (generalization error).
+
+Question 17
+A validation set is similiar to an additional test set and is used to further test the generalisation
+of different models and compare their performance.
+
+Question 18
+The hyperparameters selected may be too specific to this set and may not generalise well
+
+Question 19
+A cross validation set is a subset of the training data used to perform the same function as the validation set without a need to remove data from the training set.
+Since subsets of the training data are used at random for this task you waste less training data for validation purposes
