@@ -1,0 +1,15 @@
+Question 1
+With millions of features you would choose a variant of gradient descent.
+Depending on the size of the training set it might be appropriate to use stochastic or mini batch gradient descent to utilize out of core support.
+
+Question 2
+Gradient descent typically suffers from data with widely different scales. To counter this effect you should scale the data such as with the sklearn stdscaler.
+
+Question 3
+No, gradient descent will not get stuck at a local minimum here as the logistic regression function is a convex function.
+
+Question 4
+No stochastic and mini-batch GD will bounce around the minimum point and so the models may vary slightly.
+Adjusting the learning rate with these models will help it converge. Note that when the optimisation problem is not convex, this may not be the case.
+
+Question 5
