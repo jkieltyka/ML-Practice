@@ -13,3 +13,31 @@ No stochastic and mini-batch GD will bounce around the minimum point and so the 
 Adjusting the learning rate with these models will help it converge. Note that when the optimisation problem is not convex, this may not be the case.
 
 Question 5
+The model could be diverging as a result of alearning late that is too high. 
+if the training set also exhibits this behavior, this is likely the case.
+The model selected is likely has a high variance and if overfitting the training set. 
+I would attempt to remove features or regularize the model.
+
+Question 6
+No, as mini-batch GD uses randomization this could happen well before the model has converged.
+You should wait to see several epochs in a row where this is the case.
+
+Question 7
+The stochastic GD algorithm will converge the fastest as it is only calculating on one training example.
+To help SGD and MB-GD converge you would need to introduce a decreasing learning rate.
+
+Question 8
+If there is a large gap in the learning curve the model may be overfitting which could benifit reducing the model's complexity/order.
+Another option is to regularize the model using something such as ridge, lasso or elastic net regulization.
+The final option would be to increase the training set size.
+
+Question 9
+High bias, you should lower the regularization.
+
+Question 10
+Models tend to perform better with some regularization rather than with none.
+:. Ridge Regression
+
+When the model appears to be overfitting and you wish to flatten the model. This will create a sparser model.
+
+Elastic Nets are generally preferred as they perform less erratically in some scenarios.
