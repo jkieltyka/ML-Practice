@@ -41,3 +41,7 @@ Models tend to perform better with some regularization rather than with none.
 When the model appears to be overfitting and you wish to flatten the model. This will create a sparser model.
 
 Elastic Nets are generally preferred as they perform less erratically in some scenarios.
+
+Question 11
+This should be two seperate logistic regression classifiers. A softmax regession model would only work if the two classifications were mutually exclusive.
+In this case a picture would be part of 2 classes.
