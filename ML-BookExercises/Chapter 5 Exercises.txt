@@ -1,0 +1,12 @@
+Question 1
+The idea of an SVM is to fit the widest possible street between different classes. When using hard margins no instances can lie on the decision boundry.
+Soft margins will allow some violations which will allow a wider street.
+
+Question 2
+Support vectors are the instances on the street that determine where the decision boundry is.
+
+Question 3
+SVM classifiers are easily affected by large varying scales as this will efectively narrow the street.
+By scaling the variables tou can produce a much wider decision boundry.
+
+Question 4
