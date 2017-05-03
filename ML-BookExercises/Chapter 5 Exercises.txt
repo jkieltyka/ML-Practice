@@ -10,3 +10,16 @@ SVM classifiers are easily affected by large varying scales as this will efectiv
 By scaling the variables tou can produce a much wider decision boundry.
 
 Question 4
+An SVM can output the distance from the instance to the test boundry, which can be used as a confidience score.
+This score can't be converted directly into a probability. To do probabilities you will need to set the probability flag to true.
+
+Question 5
+Pass until covering the mathematics of SVMs
+
+Question 6
+In this instance you would want to increase the gamma or C hyperparameters as this will increase the influence of the similiarity features.
+
+Question 7
+Pass until covering the mathematics of SVMs
+
+
