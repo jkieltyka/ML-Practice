@@ -1,0 +1,21 @@
+Question 1
+A decision tree will generally end up as a well balanced binary tree after training, with 1 leaf per instance
+hence log2(m)
+= log2(1*10^6) ~=20
+
+Question 2
+The Gini impurity is generally lower than the parent. 
+The CART algorithm will split the parent in a way that the weighted sum of the Gini impurity is lower than the parent.
+
+Question 3
+Yes, decreasing the max depth parameter will regularize the model helping to reduce overfitting.
+
+Question 4
+A decision tree is not affected by scaling of data so this will likely have little effect.
+
+Question 5
+The training complexity is =(n*mlog(m))
+let k = n*10m*log(10m)/n*m*log(m)
+if m = 10^6
+k ~= 11.7
+:. 11.7 hours
