@@ -19,3 +19,7 @@ let k = n*10m*log(10m)/n*m*log(m)
 if m = 10^6
 k ~= 11.7
 :. 11.7 hours
+
+Question 6
+Presorting the data will help speed up the training when the number of instances is less than a few thousand.
+At 100k instances, this would result in a significantly increased training time.
