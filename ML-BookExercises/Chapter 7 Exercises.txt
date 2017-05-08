@@ -1,0 +1,13 @@
+Question 1
+Assuming that the models are diverse enough you could expect that the models could be combined for a better result.
+Each model will work better on certain instances and so combining them will allow for a more accurate result through voting or blending.
+
+Question 2
+Soft voting can occur when the classifiers output a prediction probability. In this case an average probability will be used to predict a class.
+With hard voting the class with the most votes will be selected. 
+
+Question 3
+Bagging, pasting and random forest ensembles can be distirbuted over servers as they are independant classifiers.
+Boosting and requires each classifier to be trained and tested for error before the next can be trained so this can't be distributed.
+Stacking could be distributed at each layer but the individual layers would need to be sequential.
+
