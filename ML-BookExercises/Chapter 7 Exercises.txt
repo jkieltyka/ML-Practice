@@ -11,3 +11,9 @@ Bagging, pasting and random forest ensembles can be distirbuted over servers as 
 Boosting and requires each classifier to be trained and tested for error before the next can be trained so this can't be distributed.
 Stacking could be distributed at each layer but the individual layers would need to be sequential.
 
+Question 4
+By using OOB evaluation you can remove the need for a seperate cross validation set and hence have more training data to work with.
+
+Question 5
+Extra-trees use random feature subsets for splitting just like random forests but they also use random thresholds for when to split.
+This trades higher bias for lower variance.
