@@ -17,3 +17,10 @@ By using OOB evaluation you can remove the need for a seperate cross validation 
 Question 5
 Extra-trees use random feature subsets for splitting just like random forests but they also use random thresholds for when to split.
 This trades higher bias for lower variance.
+
+Question 6
+You should reduce the learning rate so that each sequential classifier has more impact. 
+Increasing the number of classifers will also help reduce the underfitting.
+
+Question 7
+Reduce the learning rate
