@@ -1,0 +1,11 @@
+Question 1
+The main motivations are:
+-	Speed up training of algorithms
+-	To visualize the data and gain insights on the most important features
+-	To save space
+
+Main drawbacks are:
+- loss of information
+- computationally expensive
+- adds complexity to the data pipeline
+- transformed features can be hard to interpret
