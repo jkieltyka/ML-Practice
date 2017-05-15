@@ -14,7 +14,7 @@ An SVM can output the distance from the instance to the test boundry, which can 
 This score can't be converted directly into a probability. To do probabilities you will need to set the probability flag to true.
 
 Question 5
-Pass until covering the mathematics of SVMs
+This only applies to linear SVMs. It would be far more efficient to use the primal method for a large number on instances.
 
 Question 6
 In this instance you would want to increase the gamma or C hyperparameters as this will increase the influence of the similiarity features.
