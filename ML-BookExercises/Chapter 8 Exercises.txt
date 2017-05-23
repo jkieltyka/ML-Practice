@@ -9,3 +9,7 @@ Main drawbacks are:
 - computationally expensive
 - adds complexity to the data pipeline
 - transformed features can be hard to interpret
+
+Question 2
+The curse of dimensionality is that the more features you have the further apart each instance is.
+As a result it can be hard to not overfit the data without having lots of data to use.
