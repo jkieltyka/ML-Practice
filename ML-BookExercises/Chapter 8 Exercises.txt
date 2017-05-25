@@ -13,3 +13,7 @@ Main drawbacks are:
 Question 2
 The curse of dimensionality is that the more features you have the further apart each instance is.
 As a result it can be hard to not overfit the data without having lots of data to use.
+
+Question 3
+No, you are removing some of the data's variance when you map it to a lower dimensionality. 
+As a result you are lossing some of the data which results in the inability to restore all the original data.
