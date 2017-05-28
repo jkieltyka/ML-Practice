@@ -20,4 +20,8 @@ As a result you are lossing some of the data which results in the inability to r
 
 Question 4
 Yes you can use PCA to reduce data that is highly nonlinear as generally you can remove a number of useless dimensions.
-If there are no useless dimensions this may not be effective
+If there are no useless dimensions this may not be effective.
+
+Question 5
+This will depend on the dataset. If there are more dimensions in the data set that do not affect the variance of the overall data,
+the amount of dimensions that could be removed will be increased.
