@@ -1,0 +1,8 @@
+Question 1
+The main benifits include:
+- operations can be run in parallel or across different devices
+- Tensorflow can automatically compute gradients for you
+
+Main drawbacks:
+- debugging can be harder
+- it is harder to learn
