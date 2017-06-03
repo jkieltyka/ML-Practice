@@ -6,3 +6,6 @@ The main benifits include:
 Main drawbacks:
 - debugging can be harder
 - it is harder to learn
+
+Question 2
+yes
