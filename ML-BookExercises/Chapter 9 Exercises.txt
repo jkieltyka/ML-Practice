@@ -9,3 +9,7 @@ Main drawbacks:
 
 Question 2
 yes
+
+Question 3
+No, the first statement willl compute A and B using the defined graph in two runs while the second statement will do it in one run.
+The results will be the same unless the calculation of one variable has side effects on the other calculation.
