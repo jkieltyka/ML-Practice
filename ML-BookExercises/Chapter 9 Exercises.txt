@@ -16,3 +16,6 @@ The results will be the same unless the calculation of one variable has side eff
 
 Question 4
 No you can't you would need to merge the graphs to do this.
+
+Question 5
+They will use their own copies of the variable if using distributed tensor flow otherwise they will share the variable
