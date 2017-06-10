@@ -19,3 +19,7 @@ No you can't you would need to merge the graphs to do this.
 
 Question 5
 They will use their own copies of the variable if using distributed tensor flow otherwise they will share the variable
+
+Question 6
+A variable is created when it's initializer is called. It is destroyed when the session ends.
+Whenusing distributed tensorflow, the variables live in containers across sessions so to remove a variable you will need to remove the container.
