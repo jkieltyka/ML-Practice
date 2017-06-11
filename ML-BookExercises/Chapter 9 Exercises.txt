@@ -23,3 +23,7 @@ They will use their own copies of the variable if using distributed tensor flow 
 Question 6
 A variable is created when it's initializer is called. It is destroyed when the session ends.
 Whenusing distributed tensorflow, the variables live in containers across sessions so to remove a variable you will need to remove the container.
+
+Question 7
+Variables are operations that hold values they are given. Once they have been initialized they can be run to return their value.
+Placeholders do not have values and only represent the shape and type of a tensor
