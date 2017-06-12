@@ -27,3 +27,7 @@ Whenusing distributed tensorflow, the variables live in containers across sessio
 Question 7
 Variables are operations that hold values they are given. Once they have been initialized they can be run to return their value.
 Placeholders do not have values and only represent the shape and type of a tensor
+
+Question 8
+If a placeholder is not defined at runtime then an exception will be thrown. If the operation does not depend on a placeholder then no exception will be raised.
+
