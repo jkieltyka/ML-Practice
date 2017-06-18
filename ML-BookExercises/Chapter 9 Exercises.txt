@@ -31,3 +31,5 @@ Placeholders do not have values and only represent the shape and type of a tenso
 Question 8
 If a placeholder is not defined at runtime then an exception will be thrown. If the operation does not depend on a placeholder then no exception will be raised.
 
+Question 9
+When running a graph you can feed the value of placeholders and output values for any operation.
